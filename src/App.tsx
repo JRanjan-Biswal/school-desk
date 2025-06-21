@@ -25,6 +25,7 @@ const App = () => (
           <Route path="/demo" element={<Demo />} />
           <Route path="/super-admin" element={<SuperAdmin />} />
           <Route path="/school-admin" element={<SchoolAdmin />} />
+          
           <Route path="/teacher" element={<Teacher />} />
           <Route path="/parent" element={<Parent />} />
           <Route path="*" element={<NotFound />} />
